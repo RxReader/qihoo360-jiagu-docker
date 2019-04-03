@@ -13,7 +13,7 @@
 
 ````
 docker run --rm -it -v ${PWD}:/channel v7lin/jiagu sh -c "java -jar /jiagu/jiagu.jar -version"
-docker run --rm -it -v ${PWD}:/channel v7lin/jiagu sh -c "java -jar /jiagu/jiagu.jar -login ${QIHOO_360_ACCOUNT} ${QIHOO_360_PASSWORD}"
+docker run --rm -it -v ${PWD}:/channel v7lin/jiagu sh -c "java -jar /jiagu/jiagu.jar -login ${QIHOO_360_ACCOUNT} ${QIHOO_360_PASSWORD} && java -jar /jiagu/jiagu.jar -jiagu /channel/app.apk /channel && ls /channel"
 ````
 
 * drone
