@@ -1,0 +1,19 @@
+kind: pipeline
+name: default
+
+steps:
+- name: publish
+  image: plugins/docker
+  settings:
+    repo: v7lin/jiagu
+    target: prod
+    username:
+      from_secret: REGISTRY_USER
+    password:
+      from_secret: REGISTRY_PASSWORD
+    tags:
+#    - ${DRONE_TAG}
+    - latest
+#  when:
+#    event:
+#    - tag
