@@ -2,6 +2,7 @@
 
 [![Build Status](https://cloud.drone.io/api/badges/v7lin/qihoo360-jiagu-docker/status.svg)](https://cloud.drone.io/v7lin/qihoo360-jiagu-docker)
 [![Docker Pulls](https://img.shields.io/docker/pulls/v7lin/jiagu.svg)](https://hub.docker.com/r/v7lin/jiagu)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/v7lin/qihoo360-jiagu-docker/blob/master/LICENSE)
 
 ### 项目源码
 
